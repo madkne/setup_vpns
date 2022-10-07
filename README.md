@@ -2,7 +2,7 @@
 
 ## install Openvpn server on debian/ubuntu servers
 
-1. download openvpn installer with `curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh`
+1. download openvpn installer with `wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh`
 2. run installer with some specific parameters:
     - tcp protocol
     - DNS 1.1.1.1
@@ -17,6 +17,7 @@
 
 ### via terminal (linux, mac)
 ```
+sudo apt-get install openvpn
 sudo openvpn --config ~/Desktop/madkne.ovpn
 ```
 ### android app
