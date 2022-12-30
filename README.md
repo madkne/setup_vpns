@@ -1,9 +1,10 @@
 # VPNs Setup
 
-## supported types
+Teaching how to install and set up kinds of vpn servers.
+## supported vpn types
 
-- [openvpn](./openvpn/README.md)
-- [v2ray](./v2ray/README.md)
+- [OpenVPN](./openvpn/README.md)
+- [V2Ray](./v2ray/README.md)
 
 
 ## Author
