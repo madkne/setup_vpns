@@ -1,13 +1,21 @@
-# V2ray Setup
+# V2ray Setup (edition 2)
 
 ## install on debian/ubuntu servers
 
-1. install required packages by `sudo apt install -y unzip wget socat`
+1. install required packages:
+
+```
+sudo apt install -y unzip wget socat
+```
 
 2. download v2ray core with `wget https://github.com/v2ray/v2ray-core/releases/download/v4.28.2/v2ray-linux-64.zip -O v2ray-linux-64.zip`
 > or download latest v2ray core for linux from `https://github.com/v2ray/v2ray-core/releases`
 
-3. unzip `unzip v2ray-linux-64.zip  -d v2ray`
+3. unzip: 
+
+```
+unzip v2ray-linux-64.zip  -d v2ray
+```
 
 4. set `server-config.json` file on `v2ray/` folder as `config.json` file
 
@@ -15,6 +23,8 @@
 ```
 killall -9 v2ray
 killall -9 socat
+
+mkdir -p /var/log/v2ray/
 
 nohup ./v2ray -config=config.json &
 

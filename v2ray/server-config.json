@@ -16,7 +16,10 @@
                         "alterId": 64,
                         "security": "chacha20-poly1305"
                     }
-                ]
+                ],
+                "timeout": 600,
+                "allowTransparent": false,
+                "userLevel": 0
             },
             "streamSettings": {
                 "network": "tcp",
