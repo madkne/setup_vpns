@@ -63,6 +63,20 @@
             "streamSettings": {
                 "network": "ws"
             }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 9016,
+            "protocol": "shadowsocks",
+            "settings": {
+                "method": "chacha20-poly1305",
+                "ota": false,
+                "password": "12345",
+                "network": "udp"
+            },
+            "streamSettings": {
+                "network": "domainsocket"
+            }
         }
     ],
     "outbound": {

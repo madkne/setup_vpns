@@ -32,6 +32,21 @@
                 "userLevel": 8
             },
             "tag": "http"
+        },
+        {
+            "port": 10807,
+            "protocol": "http",
+            "settings": {
+                "network": "udp"
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls"
+                ],
+                "enabled": true
+            },
+            "tag": "udp"
         }
     ],
     "log": {
